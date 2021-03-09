@@ -25,7 +25,14 @@ for(var x=0;x<numofball;x++)
 { 
     result= result +itemorder; 
 }
+document.write (result);
 
-document.write(result);
+function sum(var1,var2)
+{
+    return var1/var2
+}
+
+console.log(sum(3,6));
+document.write(sum(3,6));
 
 
